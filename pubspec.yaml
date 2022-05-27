@@ -1,0 +1,25 @@
+name: u2f
+description: >
+  FIDO Universal 2nd Factor.
+  Register a FIDO2 U2F key to your application
+  Verify a FIDO2 U2F key assertion
+version: 1.4.0
+homepage: https://fidoalliance.org/specs/fido-u2f-v1.0-ps-20141009/fido-u2f-overview-ps-20141009.html
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  cbor: ^5.0.1
+  crypto: ^3.0.2
+  flutter:
+    sdk: flutter
+  flutter_nfc_kit: ^3.3.1
+  logging: ^1.0.2
+  pointycastle: ^3.6.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
